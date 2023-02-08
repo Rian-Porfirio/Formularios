@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css">
+    <title>form</title>
+</head>
+<body>
+    <form action="cadastro.php" method="post" autocomplete="off">
+        <div id="container">
+            <p id="title">Envie uma mensagem preenchendo o formulário abaixo</p>
+            
+            <p class="fonte">
+                <label for="inome">Seu Nome:</label>
+                <input class="info" type="text" name="nome" id="inome" placeholder="Seu nome e sobrenome">
+            </p>
+
+            <p class="fonte">
+                <label for="itelefone">Seu Telefone:</label>
+                <input type="tel" class="info" name="telefone" id="itelefone" placeholder="(xx) xxxx-xxxx">
+            </p>
+
+            <p class="fonte">
+                <label for="iemail">Seu E-mail:</label>
+                <input type="text" class="info" name="email" id="iemail" placeholder="mariajoaquina@gmail.com">
+            </p>
+
+            <p class="fonte">
+                Deseja receber nossas novidades?<br>
+                <input type="radio" name="selec" id="selecsim">
+                <label class="radio" for="selecsim">Sim</label>
+                <input type="radio" name="selec" id="selecnao">
+                <label class="radio" for="selecnao">Não</label>
+            </p>
+
+            <p class="fonte">
+                <label for="imensagem">Sua mensagem:</label>
+                <textarea class="txtarea" name="mensagem" id="imensagem" rows="7" cols="50"></textarea>
+            </p>
+
+                <input type="submit" name="botao" id="ibotao" value="Enviar">
+        </div>
+    </form>
+</body>
+</html>
