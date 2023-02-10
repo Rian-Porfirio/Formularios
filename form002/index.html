@@ -11,32 +11,55 @@
         <form>
             <fieldset>
                 <legend>Formulário de clientes</legend>
-
+                <br>
                 <div>
-                    <input>
-                    <label></label>
+                    <input type="text" name="nome" id="inome">
+                    <label for="inome">Nome Completo</label>
                 </div>
 
                 <div>
-                    <input>
-                    <label></label>
+                    <input type="email" nome="email" id="iemail">
+                    <label for="email">E-mail</label>
                 </div>
 
                 <div>
-                    <input>
-                    <label></label>
+                    <input type="tel" name="telefone" id="itelefone">
+                    <label for="itelefone">Telefone</label>
                 </div>
 
                 <div>
-                    
+                    <p>Sexo:</p>
+                    <input type="radio" name="gen" id="igenF">
+                        <label for="igenF">Feminino</label> <br>  
+                    <input type="radio" name="gen" id="igenM">
+                        <label for="igenM">Masculino</label><br>
+                    <input type="radio" name="gen" id="igenO">
+                        <label for="igenO">Outro</label>
+                        
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="idata">Data de nascimento:</label>
+                    <input type="date" name="data" id="idata">
+                </div>
+
+                <br>
+
+                <div>
+                    <input type="text" name="cidade" id="icidade">
+                    <label for="icidade">Cidade</label>
                 </div>
 
                 <div>
-                    
+                    <input type="text" name="estado" id="iestado">
+                    <label for="iestado">Estado</label>
                 </div>
 
                 <div>
-                    
+                    <input type="text" name="endereco" id="iendereco">
+                    <label for="iendereco">Endereço</label>
                 </div>
 
             </fieldset>
