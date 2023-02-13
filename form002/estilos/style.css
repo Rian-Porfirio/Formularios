@@ -11,11 +11,9 @@
 /* inicio */
 
 body{
-    position: relative;
     width: 100vw;
     height: 100vh;
     color: white;
-
     background-image: linear-gradient( to right, #1493dc, #113748);
 }
 
@@ -71,4 +69,6 @@ body{
     width: 100%;
 }
 
-  
+.inden{
+
+}
