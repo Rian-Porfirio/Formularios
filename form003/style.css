@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+/* config */
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* inicio */
+
+html{
+    width: 100vw;
+    height: 100vh;
+}
+
+#container{
+    position: absolute;
+    background-color: #9cbc2b;
+    width: 20%;
+    padding: 20px;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}

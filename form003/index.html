@@ -7,10 +7,13 @@
     <title>form003</title>
 </head>
 <body>
-    <div>
+    <div id="container">
         <form action="">
             <p>Step 1: Your details</p>
-            <fieldset>
+
+            <br>
+    
+            <fieldset class="bolha">
         
                 <div>
                     <label for="inome">Name</label>
@@ -19,7 +22,7 @@
 
             </fieldset>
 
-            <fieldset>
+            <fieldset class="bolha">
 
                 <div>
                     <label for="inome">Name</label>
@@ -28,7 +31,7 @@
 
             </fieldset>
 
-            <fieldset>
+            <fieldset class="bolha">
 
                 <div>
                     <label for="inome">Name</label>
@@ -36,18 +39,23 @@
                 </div>
 
             </fieldset>
+
+            <br>
 
             <p>Step 2: Delivery address</p>
 
-            <fieldset>
+            <br>
+
+            <fieldset class="bolha">
 
                 <div>
+                    <label for="iareatxt">Address</label>
                     <textarea name="areatxt" id="iareatxt" col="10" rol="10"></textarea>
                 </div>
 
             </fieldset>
 
-            <fieldset>
+            <fieldset class="bolha">
 
                 <div>
                     <label for="ipost">Post code</label>
@@ -57,12 +65,12 @@
 
             </fieldset>
 
-            <fieldset>
+            <fieldset class="bolha">
                 
                 <div>
                     <label for="icountry">Country</label>
                     <input type="text" name="country" id="icountry" list="countrylist">
-                    
+
                     <datalist id="countrylist">
 
                         <option>Brazil</option>
@@ -76,9 +84,13 @@
 
             </fieldset>
 
+            <br>
+            
             <p>Step 3: Card details</p>
 
-            <fieldset>
+            <br>
+
+            <fieldset class="bolha">
 
                 <div>
                     <input type="radio" name="card" id="icardVisa">
@@ -91,7 +103,7 @@
 
             </fieldset>
 
-            <fieldset>
+            <fieldset class="bolha">
 
                 <div>
                     <label for="icarnumber">Card number</label>
@@ -100,7 +112,7 @@
 
             </fieldset>
 
-            <fieldset>
+            <fieldset class="bolha">
 
                 <div>
                     <label for="iSecCode">Security code</label>
@@ -109,7 +121,7 @@
 
             </fieldset>
 
-            <fieldset>
+            <fieldset class="bolha">
 
                 <div>
                     <label for="icardName">Name on card</label>
