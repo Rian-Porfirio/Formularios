@@ -8,16 +8,14 @@
 </head>
 <body>
     <div id="container">
-        <form action="">
-            <p>Step 1: Your details</p>
-
-            <br>
+        <form action="cadastro.php" method="get" autocomplete="off">
+            <p class="step">Step 1: Your details</p>
     
             <fieldset class="bolha">
         
                 <div>
                     <label for="inome">Name</label>
-                    <input type="text" name="nome" id="inome">
+                    <input class="UserInfo" type="text" name="nome" id="inome">
                 </div>
 
             </fieldset>
@@ -25,8 +23,8 @@
             <fieldset class="bolha">
 
                 <div>
-                    <label for="inome">Name</label>
-                    <input type="text" name="nome" id="inome">
+                    <label for="iemail">E-mail</label>
+                    <input class="UserInfo" type="email" name="email" id="iemail">
                 </div>
 
             </fieldset>
@@ -34,17 +32,13 @@
             <fieldset class="bolha">
 
                 <div>
-                    <label for="inome">Name</label>
-                    <input type="text" name="nome" id="inome">
+                    <label for="itel">Phone</label>
+                    <input class="UserInfo" type="tel" name="tel" id="itel">
                 </div>
 
             </fieldset>
 
-            <br>
-
-            <p>Step 2: Delivery address</p>
-
-            <br>
+            <p class="step">Step 2: Delivery address</p>
 
             <fieldset class="bolha">
 
@@ -59,7 +53,7 @@
 
                 <div>
                     <label for="ipost">Post code</label>
-                    <input type="number" name="post" id="ipost">
+                    <input class="UserInfo" type="number" name="post" id="ipost">
                     
                 </div>
 
@@ -69,7 +63,7 @@
                 
                 <div>
                     <label for="icountry">Country</label>
-                    <input type="text" name="country" id="icountry" list="countrylist">
+                    <input class="UserInfo" type="text" name="country" id="icountry" list="countrylist">
 
                     <datalist id="countrylist">
 
@@ -83,16 +77,14 @@
                 </div>
 
             </fieldset>
-
-            <br>
             
-            <p>Step 3: Card details</p>
-
-            <br>
+            <p class="step">Step 3: Card details</p>
 
             <fieldset class="bolha">
 
                 <div>
+                    <p>Card type</p>
+                    <br>
                     <input type="radio" name="card" id="icardVisa">
                     <label for="icardVisa">Visa</label>
                     <input type="radio" name="card" id="icardAmEx">
@@ -107,7 +99,7 @@
 
                 <div>
                     <label for="icarnumber">Card number</label>
-                    <input type="number" name="cardnumber" id="icardnumber">
+                    <input class="UserInfo" type="number" name="cardnumber" id="icardnumber">
                 </div>
 
             </fieldset>
@@ -116,7 +108,7 @@
 
                 <div>
                     <label for="iSecCode">Security code</label>
-                    <input type="number" name="SecCode" id="iSecCode">
+                    <input class="UserInfo" type="number" name="SecCode" id="iSecCode">
                 </div>
 
             </fieldset>
@@ -125,7 +117,7 @@
 
                 <div>
                     <label for="icardName">Name on card</label>
-                    <input type="text" name="cardName" id="icardName">
+                    <input class="UserInfo" type="text" name="cardName" id="icardName">
                 </div>
 
             </fieldset>
