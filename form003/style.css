@@ -23,6 +23,8 @@ html{
     background-color: #9cbc2b;
     width: 25%;
     padding: 10px;
+    border-radius: 5px;
+    border: 7px solid rgba(3, 92, 3, 0.574);
 
     top: 50%;
     left: 50%;
@@ -47,5 +49,9 @@ html{
 }
 
 .UserInfo{
-    margin-left: 50px;
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.418);
+    width: 50%;
+    height: 20px;
 }
