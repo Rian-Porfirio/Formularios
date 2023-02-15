@@ -32,6 +32,20 @@ html{
     transform: translate(-50%, -50%);
 }
 
+#icomprar{
+    display: block;
+    margin: auto;
+    background-color: #384313;
+    color: white;
+    padding: 7px 25px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.197);
+}
+
+#icomprar:hover{
+    cursor: pointer;
+}
+
 
 .bolha{
     margin-bottom: 2px;
@@ -56,18 +70,8 @@ html{
     height: 20px;
 }
 
-#icomprar{
-    display: block;
-    margin: auto;
-    background-color: #384313;
-    color: white;
-    padding: 7px 25px;
-    border-radius: 20px;
-    border: 1px solid rgba(0, 0, 0, 0.197);
-}
-
-#icomprar:hover{
-    cursor: pointer;
+.cardsName{
+    margin-right: 50px;
 }
 
 input::-webkit-outer-spin-button, input::-webkit-inner-spin-button{
